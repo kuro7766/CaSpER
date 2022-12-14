@@ -240,7 +240,7 @@ runCaSpER <- function(object, removeCentromere = T, cytoband = object@cytoband, 
     loh.list <- list()
     cnv.list <- list()
 
-    message('caspermouse.r called')
+    message("caspermouse.r called")
     
     message("Performing recursive median filtering...")
     

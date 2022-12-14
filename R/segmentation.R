@@ -42,7 +42,7 @@ generateParam <- function(object, cnv.scale = 3) {
 runCaSpER <- function(object, removeCentromere = T, cytoband = object@cytoband, method = "iterative") {
     final.objects <- list()
     
-    message('seg called')
+    message("seg called")
 
     if (method == "iterative") {
         loh.list <- list()

@@ -3,6 +3,8 @@ library(Seurat)
 library(CaSpER)
 data("hg19_cytoband")
 
+message('MM135 called')
+
 # expression data is downloaded from https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE110499
 
 counts  <- read.delim("GSE110499_GEO_processed_MM_10X_raw_UMI_count_martix.txt", stringsAsFactor=F, header=T)
